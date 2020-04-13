@@ -1,0 +1,199 @@
+*:focus {
+    outline: 0;
+}
+
+#home-header {
+	height: 40px;
+	position: relative;
+	/*background-color: rgba(0,51,102,0.8);*/
+	background-color: rgba(23,172,61,1);
+	box-shadow: 0 1px 2px #000;
+}
+
+#home-header #header-container {
+	position: absolute;
+	width: 920px;
+	height: 40px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#home-header #remola-icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 5px;
+	margin: auto;
+}
+
+#home-header form {
+	position: absolute;
+	height: 28px;
+	top: 0;
+	bottom: 0;
+	left: 50px;
+	margin: auto;
+}
+
+#home-header form #search_main{
+	padding: 3px;
+	font-size: 12px;
+	width: 300px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#home-header #home_icon_set {
+	width: 180px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0px;
+	margin: auto;
+}
+
+#home-header img {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#home-header #logout_img {
+	padding-left: 20px;
+	margin-right: 0;
+	margin-left: 0;
+	border-left: 1px solid rgba(0,51,102,0.6);
+}
+
+
+
+.hidden {
+	display: none;
+}
+
+.shown {
+	display: block;
+	width: 400px;
+}
+
+#search_result {
+	width: 295px;
+	height: auto;
+	position: absolute;
+	left: 52px;
+	top: 32px;
+	background-color: #fff;
+	z-index: 1000;
+	box-shadow: 2px 2px 2px #e0e0e0;
+}
+
+#friend_request {
+	width: 295px;
+	height: auto;
+	position: absolute;
+	right: 15px;
+	top: 35px;
+	background-color: #fff;
+	z-index: 1000;
+	box-shadow: 0px 0px 10px #e0e0e0;
+}
+
+#search_profile_box {
+	width: 295px;
+	height: 45px;
+	position: relative;
+	box-shadow: 1px 1px #e0e0e0;
+}
+
+#search_profile_box:hover {
+	background-color: #f0f0f0;
+}
+
+#search_profile_box #search_profile_pic {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 4px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#search_profile_box #search_profile_name {
+	margin: 0;
+	font-size: 12px;
+	width: 150px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50px;
+	margin: auto;
+	height: 20px;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#friend_request #add_friend_button {
+	width: 50px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	margin: auto;
+	background-color: rgba(23,172,61,1);
+	padding: 3px;
+	border: 1px solid #090909;
+}
+
+#friend_request #add_friend_button p {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+
+#home_icon_set #req_no {
+	position: absolute;
+	top: -5px;
+	right: 110px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 9px;
+	background-color: #FF1919;
+	padding: 1px;
+	border-radius: 20px;
+	color: #fff;
+}
+
+#search_no_results {
+	margin: 0;
+	padding: 5px;
+	height: 15px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #a0a0a0;
+	background-color: #fff;
+}
+
+#friend_no_results {
+	margin: 0;
+	padding: 5px;
+	height: 15px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	color: #a0a0a0;
+	background-color: #fff;
+}
